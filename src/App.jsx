@@ -3,8 +3,8 @@ import SpotifyIcon from './Components/SpotifyIcon';
 import { useState, useEffect } from 'react';
 
 import SpotIcon from '../src/img/SpotIcon.png'
-const clientId = "dbb1a7dae71b43c18ca139452c9f086b";
-const clientSecret = "c1c37816c7424d99b1678cda1a0aa35e";
+const clientId = "";
+const clientSecret = "";
 
 function App() {
   const [accessToken, setAccessToken] = useState('');
