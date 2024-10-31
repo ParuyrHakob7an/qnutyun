@@ -62,8 +62,8 @@ function App() {
               {/* <li><a href="#" className='liii'> <img src="https://avatars.githubusercontent.com/u/71128003?s=280&v=4" alt="" className='img_library' />Your Library</a></li> */}
               <br />
               <li className='h3'><h2>+</h2>Create Playlist</li>
-              <li className='h3'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxV1XbUQC1Z6r_RtJe1aMCKGFg6WkiCV3vOb8Lc6RPwBxCbxyzR-n2nAJcq9_skdS&usqp=CAU" alt="" />Liked Songs</li>
-              <li><img src='https://aplicacionesandroid.es/img/2020/01/8deebccf6494e7fe26f66c106831245c.jp' alt="" />Your Episodes</li>
+              {/* <li className='h3'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxV1XbUQC1Z6r_RtJe1aMCKGFg6WkiCV3vOb8Lc6RPwBxCbxyzR-n2nAJcq9_skdS&usqp=CAU" alt="" />Liked Songs</li> */}
+              {/* <li><img src='https://aplicacionesandroid.es/img/2020/01/8deebccf6494e7fe26f66c106831245c.jp' alt="" />Your Episodes</li> */}
               <br/>
               <ul className='fav'>
               <li>FAV</li>
