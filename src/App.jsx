@@ -57,9 +57,9 @@ function App() {
           <h1 className='spoty'><img src="https://i.pinimg.com/originals/45/cc/6c/45cc6c91692a3665d97b570a3272132a.jpg" alt="" />Spotify</h1>
           <nav>
             <ul className='li_img'>
-              <li><a href="#" className='liii'><img src="https://img.icons8.com/fluent-systems-filled/200/FFFFFF/home.png" alt="" />Home</a></li>
-              <li><a href="#" className='liii'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32N6i_mjMes8qXIXw7iKeqhvUN3G7YFHwHff07CgXDEcSA5y9a6evlCfP21SvdLM310o&usqp=CAU" alt="" />Search</a></li>
-              <li><a href="#" className='liii'> <img src="https://avatars.githubusercontent.com/u/71128003?s=280&v=4" alt="" className='img_library' />Your Library</a></li>
+              {/* <li><a href="#" className='liii'><img src="https://img.icons8.com/fluent-systems-filled/200/FFFFFF/home.png" alt="" />Home</a></li> */}
+              {/* <li><a href="#" className='liii'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS32N6i_mjMes8qXIXw7iKeqhvUN3G7YFHwHff07CgXDEcSA5y9a6evlCfP21SvdLM310o&usqp=CAU" alt="" />Search</a></li> */}
+              {/* <li><a href="#" className='liii'> <img src="https://avatars.githubusercontent.com/u/71128003?s=280&v=4" alt="" className='img_library' />Your Library</a></li> */}
               <br />
               <li className='h3'><h2>+</h2>Create Playlist</li>
               <li className='h3'><img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRGxV1XbUQC1Z6r_RtJe1aMCKGFg6WkiCV3vOb8Lc6RPwBxCbxyzR-n2nAJcq9_skdS&usqp=CAU" alt="" />Liked Songs</li>
