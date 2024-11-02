@@ -3,8 +3,10 @@ import SpotifyIcon from './Components/SpotifyIcon';
 import { useState, useEffect } from 'react';
 
 import SpotIcon from '../src/img/SpotIcon.png'
+import Library from './Components/Library';
+import Home from './Pages/Home';
 const clientId = "";
-const clientSecret = "";
+const clientSecret = "c1c37816c7424d99b1678cda1a0aa35e";
 
 function App() {
   const [accessToken, setAccessToken] = useState('');
@@ -52,31 +54,10 @@ function App() {
   }
   return (
     <div className="App">
-       <div className="Home">
-        <header>
-          <h1 className='spoty'><img src="https://i.pinimg.com/originals/45/cc/6c/45cc6c91692a3665d97b570a3272132a.jpg" alt="" />Spotify</h1>
-          <nav>
-            <ul className='li_img'>
-
-              <br/>
-              <ul className='fav'>
-              <li>FAV</li>
-              <li>Daily Mix 1</li>
-              <li>Discover Weeky</li>
-              <li>Malaliam</li>
-              <li>Dance</li>
-              <li>EDM</li>
-              </ul>
-            </ul>
-          </nav>
-        </header>
-      </div>
-      <div className="Erku">
+       
+      {/* <div className="Erku">
       <div>
-        <h2>Your top genres</h2>
-        <div>
-
-        </div>
+       
       </div>
       <input
         type="text"
@@ -99,7 +80,9 @@ function App() {
       ))}
       </div>  
       </div>
-          </div>
+          </div> */}
+          <Library/>
+    <Home/>
          </div>
     
   );
